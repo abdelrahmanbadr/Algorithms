@@ -24,8 +24,8 @@ public class Binarysearch{
      
      public int doStuff(int start,int end,int [] arr,int key){
          int mid=(start + end) /2;
-           if(start + 1 == end){
-             return -1;
+           if(start > end){
+             return -2;
          }
          if(arr[mid] == key){
              return mid;
