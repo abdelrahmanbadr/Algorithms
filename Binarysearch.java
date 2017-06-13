@@ -14,7 +14,7 @@ public class Binarysearch{
          Binarysearch obj=new Binarysearch();
         	Arrays.sort(arr);
         	int top=arr.length-1;
-        	if(key > arr[0] || key < arr[top]){
+        	if(key < arr[0] || key > arr[top]){
         	    return -1;
         	}
          
