@@ -23,7 +23,8 @@ public class Binarysearch{
      }
      
      public int doStuff(int start,int end,int [] arr,int key){
-         int mid=(start + end) /2;
+        // int mid=(start + end) /2;
+          int mid = start + (end - start)/2;
            if(start > end){
              return -2;
          }
